@@ -7,5 +7,5 @@ jokesRouter.post("/", createJoke);
 jokesRouter.get("/", getJokes);
 jokesRouter.get("/:id", getJokeById);
 jokesRouter.put("/:id", updateJoke);
-jokesRouter.delete("/delete", deleteJoke);
+jokesRouter.delete("/:id", deleteJoke);
 jokesRouter.get("/amount", getAmount);

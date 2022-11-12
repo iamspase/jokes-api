@@ -95,7 +95,7 @@ export async function updateJoke(req: Request, res: Response): Promise<void> {
  * @returns {Promise<void>}
  */
 export async function deleteJoke(req: Request, res: Response): Promise<void> {
-    const { id } = req.body;
+    const { id } = req.params;
 
     if(!id) {
         status = 404;
