@@ -1,5 +1,5 @@
 # Jokes RESTFul API
-#### A simple REST API written developed with TypeScript, Node, Express and MongoDB
+#### A simple REST API developed with TypeScript, Node, Express and MongoDB
 
 ### Features
 - Get jokes by category and limit
